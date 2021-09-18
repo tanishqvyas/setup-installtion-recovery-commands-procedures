@@ -30,6 +30,7 @@ sudo apt install git
 git --version
 ```
 
+Additionally refer to [this link](https://stackoverflow.com/questions/68775869/support-for-password-authentication-was-removed-please-use-a-personal-access-to) when facing `Support for password authentication was removed. Please use a personal access token instead` issue while setting up git.
 
 ## Sublime Text
 
