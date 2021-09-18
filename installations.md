@@ -32,6 +32,78 @@ git --version
 
 Additionally refer to [this link](https://stackoverflow.com/questions/68775869/support-for-password-authentication-was-removed-please-use-a-personal-access-to) when facing `Support for password authentication was removed. Please use a personal access token instead` issue while setting up git.
 
+
+## Node & NPM (Node Package Manager)
+
+Following the Commands stated on the [Digital Ocean | Node installation on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04)
+
+```bash
+sudo apt update
+```
+
+```bash
+sudo apt install nodejs npm
+```
+
+```bash
+node -v
+```
+
+```bash
+npm --version
+```
+
+To be able to compile native addons from npm you’ll need to install the development tools
+
+```bash
+sudo apt install build-essential
+```
+
+## Python3 & PIP
+
+Source : [How To Install Python 3 and Set Up a Programming Environment on an Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-an-ubuntu-20-04-server)
+
+Ubuntu 20.04 and other versions of Debian Linux ship with Python 3 pre-installed. To make sure that our versions are up-to-date, let’s update and upgrade the system with the apt command to work with Ubuntu’s Advanced Packaging Tool
+
+```bash
+sudo apt update
+```
+
+```bash
+sudo apt -y upgrade
+```
+
+The `-y` flag will confirm that we are agreeing for all items to be installed, but depending on your version of Linux, you may need to confirm additional prompts as your system updates and upgrades.
+
+Once the process is complete, we can check the version of Python 3 that is installed in the system by typing:
+
+```bash
+python3 -V
+```
+
+To manage software packages for Python, let’s install pip, a tool that will install and manage programming packages we may want to use in our development projects.
+
+```bash
+sudo apt install -y python3-pip
+```
+
+```bash
+pip3 --version
+```
+
+Python packages can be installed by typing:
+
+```bash
+pip3 install <package-name>
+```
+
+There are a few more packages and development tools to install to ensure that we have a robust setup for our programming environment:
+
+```bash
+sudo apt install -y build-essential libssl-dev libffi-dev python3-dev
+```
+
+
 ## Sublime Text
 
 ```bash
@@ -73,3 +145,4 @@ sudo add-apt-repository ppa:umang/indicator-stickynotes
 sudo apt-get update
 sudo apt-get install indicator-stickynotes
 ```
+
