@@ -2,9 +2,27 @@
 
 ## Pre-requisites
 
+### curl
 ```bash
 sudo snap install curl
 ```
+
+### net-tools
+```bash
+sudo apt install net-tools
+```
+
+### nmap
+```bash
+sudo apt install nmap
+```
+
+### netdiscover
+
+```bash
+sudo apt install netdiscover
+```
+
 
 ## Chrome Web Browser
 
@@ -61,6 +79,9 @@ sudo apt install build-essential
 
 ## Python3 & PIP
 
+
+### Step 1 : Setting up Python3
+
 Source : [How To Install Python 3 and Set Up a Programming Environment on an Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-an-ubuntu-20-04-server)
 
 Ubuntu 20.04 and other versions of Debian Linux ship with Python 3 pre-installed. To make sure that our versions are up-to-date, let’s update and upgrade the system with the apt command to work with Ubuntu’s Advanced Packaging Tool
@@ -104,6 +125,13 @@ sudo apt install -y build-essential libssl-dev libffi-dev python3-dev
 ```
 
 
+### Step 2 : Setting Up a Virtual Environment
+
+```bash
+sudo apt install -y python3-venv
+```
+
+
 ## Sublime Text
 
 ```bash
@@ -132,6 +160,12 @@ sudo apt install sublime-text
 sudo snap install --classic code
 ```
 
+## Docker
+
+
+The download instructions can be taken from the [official docker website](https://docs.docker.com/engine/install/ubuntu/)
+
+
 ## Spotify
 
 ```bash
@@ -146,3 +180,52 @@ sudo apt-get update
 sudo apt-get install indicator-stickynotes
 ```
 
+## Blender
+
+```bash
+sudo snap install blender --classic
+```
+
+## GIMP
+
+```bash
+sudo apt install gimp
+```
+
+## Kazam : Screen recorder
+
+```bash
+sudo apt install kazam
+```
+
+## Htop
+
+```bash
+sudo snap install htop
+```
+
+## Virtual Box
+
+```bash
+sudo apt-get update
+```
+
+```bash
+sudo apt-get install virtualbox
+```
+
+```bash
+sudo apt-get install virtualbox—ext–pack
+```
+
+
+## Wireshark
+
+```bash
+sudo apt update
+sudo apt install wireshark
+```
+
+## Nessus
+
+## ISO Files
