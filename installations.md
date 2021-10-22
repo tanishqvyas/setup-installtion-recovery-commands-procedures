@@ -226,6 +226,73 @@ sudo apt update
 sudo apt install wireshark
 ```
 
+## Burpsuite
+
+[Reference](https://delhitrainingcourses.com/blog/install-burp-suite-on-linux-ubuntu/)
+
+Head over to [Burpsuite Releases](https://portswigger.net/burp/releases) and download the `.sh` file for installer.
+
+Then run the installer by
+
+```bash
+sh <installer-name>.sh
+```
+
+## Binwalk
+
+[Reference](https://blog.eldernode.com/install-binwalk-on-ubuntu-20-04/)
+
+```bash
+wget https://github.com/ReFirmLabs/binwalk/archive/master.zip
+```
+
+```bash
+unzip master.zip
+```
+
+```bash
+sudo apt update
+```
+
+```bash
+sudo apt install binwalk
+```
+
+
+## Steghide
+
+```bash
+sudo apt update
+sudo apt install steghide
+```
+
+## Stegsnow
+
+```bash
+sudo apt update
+sudo apt install stegsnow
+```
+
+## Exiftool
+
+```bash
+sudo apt install exiftool
+```
+
+## Audacity
+
+```bash
+sudo apt update
+sudo apt install audacity
+```
+
+## Sonic Visualizer
+
+```bash
+sudo apt update
+sudo apt install sonic-visualiser
+```
+
 ## Nessus
 
 ## ISO Files
