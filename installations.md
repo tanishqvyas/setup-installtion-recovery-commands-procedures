@@ -50,6 +50,12 @@ git --version
 
 Additionally refer to [this link](https://stackoverflow.com/questions/68775869/support-for-password-authentication-was-removed-please-use-a-personal-access-to) when facing `Support for password authentication was removed. Please use a personal access token instead` issue while setting up git.
 
+## Setting up SSH for Github
+
+[Reference for Github](https://medium.com/featurepreneur/setting-up-ssh-key-with-github-for-ubuntu-cd8f2fabf25b)
+
+
+
 
 ## Node & NPM (Node Package Manager)
 
@@ -197,6 +203,8 @@ sudo apt install gimp
 ```bash
 sudo apt install kazam
 ```
+
+
 
 ## Htop
 
