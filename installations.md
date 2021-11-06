@@ -226,6 +226,25 @@ sudo apt-get install virtualbox
 sudo apt-get install virtualbox—ext–pack
 ```
 
+## Kali Virtualbox
+
+Head over to the following link
+
+```
+https://www.kali.org/get-kali/#kali-virtual-machines
+```
+
+and download the `.ova` file. Once the download is complete then open it with `Virtialbox`. Start the machine and login using `kali` and `kali` respectively as username and password.
+
+
+## How to Install Metasploitable in VirtualBox
+
+Head over to the following link
+
+```
+https://securingninja.com/how-to-install-metasploitable-in-virtualbox/
+```
+
 
 ## Wireshark
 
