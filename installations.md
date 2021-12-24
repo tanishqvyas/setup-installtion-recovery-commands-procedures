@@ -166,6 +166,18 @@ sudo apt install sublime-text
 sudo snap install --classic code
 ```
 
+## PhpMyAdmin
+[Reference for installing PhpMyAdmin](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-20-04)
+
+## PostgreSQL
+[Reference to install PostgreSQL on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-20-04-quickstart)
+
+
+## Install PostgreSQL and pgAdmin4 in Ubuntu 20.04
+[Reference on How to Install PostgreSQL and pgAdmin4 in Ubuntu 20.04](https://tecadmin.net/how-to-install-postgresql-in-ubuntu-20-04/)
+
+
+
 ## Postman
 
 ```bash
@@ -340,3 +352,5 @@ sudo apt install sonic-visualiser
 ## Nessus
 
 ## ISO Files
+
+
