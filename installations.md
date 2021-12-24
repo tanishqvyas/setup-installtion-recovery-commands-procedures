@@ -4,7 +4,7 @@
 
 ### curl
 ```bash
-sudo snap install curl
+sudo apt install curl
 ```
 
 ### net-tools
@@ -59,7 +59,7 @@ Additionally refer to [this link](https://stackoverflow.com/questions/68775869/s
 
 ## Node & NPM (Node Package Manager)
 
-Following the Commands stated on the [Digital Ocean | Node installation on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04)
+Following the Commands stated on the [Node installation on Ubuntu](https://stackoverflow.com/a/60701804/11597114)
 
 ```bash
 sudo apt update
@@ -204,6 +204,17 @@ sudo apt install gimp
 sudo apt install kazam
 ```
 
+## FFMPEG
+
+```bash
+sudo apt install ffmpeg
+```
+
+Example to exteract audio from video
+
+```bash
+ffmpeg -i <input-video-file> <output-audio-file>
+```
 
 
 ## Htop
