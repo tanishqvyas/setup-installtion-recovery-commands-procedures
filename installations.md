@@ -166,6 +166,12 @@ sudo apt install sublime-text
 sudo snap install --classic code
 ```
 
+## Postman
+
+```bash
+sudo snap install postman
+```
+
 ## Docker
 
 
