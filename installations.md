@@ -210,6 +210,13 @@ sudo apt-get install indicator-stickynotes
 sudo snap install blender --classic
 ```
 
+## Zoom
+
+```bash
+wget https://zoom.us/client/latest/zoom_amd64.deb
+sudo apt install ./zoom_amd64.deb
+```
+
 ## GIMP
 
 ```bash
