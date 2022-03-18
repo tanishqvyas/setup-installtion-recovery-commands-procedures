@@ -59,7 +59,7 @@ Additionally refer to [this link](https://stackoverflow.com/questions/68775869/s
 
 ## Node & NPM (Node Package Manager)
 
-Following the Commands stated on the [Node installation on Ubuntu](https://stackoverflow.com/a/60701804/11597114)
+Following the Commands stated on the [Proper Node installation on Ubuntu](https://stackoverflow.com/a/60701804/11597114)
 
 ```bash
 sudo apt update
@@ -211,6 +211,13 @@ sudo apt-get install indicator-stickynotes
 
 ```bash
 sudo snap install blender --classic
+```
+
+## Zoom
+
+```bash
+wget https://zoom.us/client/latest/zoom_amd64.deb
+sudo apt install ./zoom_amd64.deb
 ```
 
 ## GIMP
