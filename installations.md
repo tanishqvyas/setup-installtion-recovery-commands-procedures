@@ -189,6 +189,9 @@ sudo snap install postman
 
 The download instructions can be taken from the [official docker website](https://docs.docker.com/engine/install/ubuntu/)
 
+## Terraform
+
+[Download Terraform](https://www.terraform.io/downloads)
 
 ## Spotify
 
